@@ -1,0 +1,9 @@
+<div *ngIf="user">
+  <h2>{{user.username}}</h2>
+  <hr>
+  <h4>{{user.name}}</h4>
+  <h4>{{user.email}}</h4>
+</div>
+<div *ngIf="!user">
+  <h2 style="text-align: center;">Please Login!</h2>
+</div>
